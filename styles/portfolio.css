@@ -1,0 +1,194 @@
+*{
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+/* header and navigation style */
+ nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 200px;
+ }
+.nav-title{
+  font-weight: 800;
+  font-size: 45px;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+}
+nav li{
+  list-style: none;
+  margin-left: 50px;
+}
+.text-primary{
+
+  color: #FD6E0A;
+}
+.button-primary{
+  color:#FFFFFF;
+  font-weight: 700;
+  font-size: 20px;
+  height: 64px;
+  border-radius: 5px;
+  background: #FD6E0A;
+  border: 0;
+  padding:18px 35px;
+}
+.banner{
+  display: flex;
+  align-items: center;
+  margin: 0 200px;
+}
+.banner-title{
+  
+  font-size: 700;
+  font-size: 85px;
+
+}
+.banner sub-title{
+
+  text-align: left;
+
+  font-weight: 600;
+  font-size: 45px;
+}
+.banner-description{
+
+  color:#757575;
+  font-size: 18px;
+  margin-bottom: 30px;
+
+}
+.header{
+  background: #FFF8F3;
+  background-image: url('/images/header_bg.png'),url('../images/developer.png');
+  background-repeat: no-repeat;
+  background-position: bottom right,left;
+  background-size: contain;
+  
+}
+/* about section styles */
+/* main section */
+
+main{
+  max-width: 1140px;
+  margin:0 auto;
+}
+section{
+  margin-top: 130px;
+}
+.about{
+
+ background-color: #FFF8F3;
+ border-radius: 10px;
+ padding: 130px 150px;
+ text-align: center;
+}
+
+.section-title{
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 30px;
+
+}
+
+.section-description{
+  color: #757575;
+  font-size: 18px;
+  margin-bottom: 30px;
+
+
+}
+.about-info-container{
+
+  display: flex;
+  justify-content: space-around;
+
+}
+about.info-title{
+
+  font-size: 20px;
+  color: #757575;
+}
+.info-description{
+  font-weight: 700;
+  font-size: 20px;
+  color: #474747;
+}
+/* What-i-do styles */
+
+.section-title{
+  margin-bottom: 100px;
+}
+
+.skill-container{
+
+  display: flex;
+  gap: 24px;
+}
+.skill{
+
+  background: #FFFFFF;
+  box-shadow: 0px 6px 50px rgba(0,0,0,0.66);
+  border-radius: 5px;
+  padding: 30px;
+}
+.skill-title{
+
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.skill-description{
+  color: #757575;
+}
+
+/* Resume Style */
+.resume-title{
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 30px;
+  color: #757575;
+}
+.resume-Bsc{
+
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  color:#474747;
+}
+.versity{
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 15px;
+  color: #474747;
+}
+
+.resume-hsc{
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  color:#474747;
+}
+.college{
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 15px;
+  color: #474747;
+}
+.resume-ssc{
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  color:#474747;
+}
+
+.school{
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 15px;
+  color: #474747;
+}
